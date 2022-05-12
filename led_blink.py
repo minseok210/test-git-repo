@@ -7,7 +7,7 @@ GPIO.setwarnings(False)
 
 GPIO.setmode(GPIO.BCM)
 
-GPIO.setmode(led_pin, GPIO.OUT)
+GPIO.setup(led_pin, GPIO.OUT)
 
 for i in range(10):
   GPIO.output(led_pin,1)
