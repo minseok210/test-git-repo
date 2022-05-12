@@ -5,11 +5,8 @@ button_pin = 15
 led_pin = 4
 
 GPIO.setwarnings(False)
-
 GPIO.setmode(GPIO.BCM)
-
-GPIO.setup(button_pin, GPIO.IN, pull_up_down=(GPIO.PUD_DOWN)
-           
+GPIO.setup(button_pin, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)           
 GPIO.setup(led_pin, GPIO.OUT)
            
 light_on = False
