@@ -1,8 +1,9 @@
-import RPI.GPIO as GPIO
+import RPi.GPIO as GPIO
 import time
 
-lesd_pin = 4
-GPIO.setwarnings(false)
+led_pin = 4
+
+GPIO.setwarnings(False)
 
 GPIO.setmode(GPIO.BCM)
 
